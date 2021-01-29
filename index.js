@@ -3,7 +3,7 @@ window.onload = function() {
 }
 
 function getCovidStats() {
-	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/131')
+	fetch('https://coronavirus-tracker-api.herokuapp.com/v2/locations/146')
 	.then(function(resp) { return resp.json() })
 	.then(function(data) {
 		let population = data.location.country_population;
